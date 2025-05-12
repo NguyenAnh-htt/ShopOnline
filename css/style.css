@@ -1,0 +1,24 @@
+/* style.css */
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.payment-method {
+    display: flex;
+    gap: 20px; /* Space between the payment options */
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.payment-option {
+    max-width: 45%;
+}
+
+.payment-option p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+}
